@@ -23,6 +23,7 @@ p, a {
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bold;
 }
 
 ul {
@@ -41,11 +42,22 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  gap: 20px;
 }
 
 .right-hero, .left-hero {
   box-sizing: border-box;
   width: 450px;
-  margin: 0;
-  padding: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  width: 125px;
+  border-radius: 12px;
+  border: none;
 }
