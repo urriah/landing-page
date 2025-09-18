@@ -61,3 +61,33 @@ button {
   border-radius: 12px;
   border: none;
 }
+
+.info {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 175px;
+  padding: 20px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin: 20px;
+}
